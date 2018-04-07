@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+#menu-ul {
+    border: 2px solid;
+    border-color: #E7EEED;
+    border-radius: 15px;
+    list-style-type: none;
+    margin-top: 23%;
+    padding-top: 2.2%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    width: 18%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 24%;
+    overflow: auto;
+}
+
+li {
+    border-bottom-color: #fff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 4% 8%;
+    border-radius: 7px;
+}
+
+li a.active {
+    background-color: #4b818a;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #BBCBCA;
+    color: white;
+}
+
+#categories-div {
+    display: none;
+    margin-left: 10%;
+}
