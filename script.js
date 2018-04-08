@@ -9,11 +9,19 @@ function activate(element_id){
 		var cat_div = document.getElementById("categories-div");
 		var menu_ul = document.getElementById("menu-ul");
 		if(cat_div.style.display == "block") {
-			menu_ul.style.height = "24%"; 
+			menu_ul.style.height = "26%"; 
 			cat_div.style.display = "none";
 		} else {
-			menu_ul.style.height = "52.5%";
+			menu_ul.style.height = "57%";
 			cat_div.style.display = "block";
 		}
 	}
+}
+
+function registerClick(){
+	window.location.replace("register.html");
+}
+
+function submitRegisterForm(){
+	window.location.replace("index.html");	
 }
