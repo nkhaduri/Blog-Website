@@ -11,7 +11,18 @@
 	</head>
 
 	<body>
-		<ul id="menu-ul">
+		<div id="login-div" class="left-side">
+			<form>
+				<label for="user">Username</label>
+				<input type="text" name="username" id="user" placeholder="Enter your username">
+				<label for="pass">Password</label>
+				<input type="password" name="password" id="pass" placeholder="Enter your password">
+			</br>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+
+		<ul id="menu-ul" class="left-side">
 		  <li>
 		  	<a id="home" onclick="activate(this.id)" class="active menu-item" href="#home">
 		  		<i class="fas fa-home"></i>
